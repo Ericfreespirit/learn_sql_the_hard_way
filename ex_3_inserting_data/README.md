@@ -1,9 +1,9 @@
 $sqlite3 ex_3_newdata.db < ex_3_newtable.sql
-# create ex_3_newdata.db
-# Any fault here create a WRONG db.file
+> create ex_3_newdata.db
+> Any fault here create a WRONG db.file
 
 $sqlite3 ex_3_newdata.db < ex_3_newdata.sql
-# The information in ex_3_newdata.sql are in ex_3_newdata.db
+> The information in ex_3_newdata.sql are in ex_3_newdata.db
 
 Differents ways to write TEXT data :
 - TINYTEXT 255 characters

@@ -1,5 +1,7 @@
 $sqlite3 ex2.db < ex2.sql
+
 $sqlite3 ex2.db
+
 $.schema
 
 1) How get rid of the relation "person_pet" into "person"
