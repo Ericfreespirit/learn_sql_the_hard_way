@@ -1,4 +1,5 @@
 /* normal join with equality */
+
 SELECT pet.id, pet.name, pet.age, pet.dead
     FROM pet, person_pet, person
     WHERE
@@ -7,6 +8,7 @@ SELECT pet.id, pet.name, pet.age, pet.dead
     person.first_name = 'Zed';
 
 /* using a sub-select */
+/* return the pet.id of Zed */
 SELECT pet.id, pet.name, pet.age, pet.dead
     FROM pet
     WHERE pet.id IN
