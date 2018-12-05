@@ -27,12 +27,12 @@ Exercice 5: Selecting Data
 > Read all column from table_name where first_name is Eric and more than 20 years old
 ----------------------------------------------------------------------------------
 Exercice 6: Join many tables
-- `SELECT 'table_A'.'table_A_column_id', 'table_A'.'table_A_column_name'`
-`FROM 'table_A', 'table_join', 'table_B'`
-`WHERE`
-`'table_A'.'table_A_column_id' = 'table_join'.'table_join_column_id AND`
-`'table_join'.'table_B_column_id' = 'table_B'.'table_B_column_id' AND`
-`'table_B_column_firstname' = 'Eric';`
+- `SELECT 'table_A'.'table_A_column_id', 'table_A'.'table_A_column_name'`<br>
+`FROM 'table_A', 'table_join', 'table_B'`<br>
+`WHERE`<br>
+`'table_A'.'table_A_column_id' = 'table_join'.'table_join_column_id AND`<br>
+`'table_join'.'table_B_column_id' = 'table_B'.'table_B_column_id' AND`<br>
+`'table_B_column_firstname' = 'Eric';`<br>
 > Normal join wtih equality
 
 -
