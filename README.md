@@ -27,19 +27,30 @@ Exercice 5: Selecting Data
 > Read all column from table_name where first_name is Eric and more than 20 years old
 ----------------------------------------------------------------------------------
 Exercice 6: Join many tables
-- `SELECT 'table_A'.'table_A_column_id', 'table_A'.'table_A_column_name'`<br>
-`FROM 'table_A', 'table_join', 'table_B'`<br>
-`WHERE`<br>
-`'table_A'.'table_A_column_id' = 'table_join'.'table_join_column_id AND`<br>
-`'table_join'.'table_B_column_id' = 'table_B'.'table_B_column_id' AND`<br>
-`'table_B_column_firstname' = 'Eric';`<br>
-> Normal join wtih equality
+- Normal join with equality
 
--
-
+- Sub-select
+----------------------------------------------------------------------------------
 Exercice 7: Deleting Data
+- `DELETE FROM 'table_name' WHERE column = x;`
+----------------------------------------------------------------------------------
 Exercice 8: Deleting using other tables
+- Delete Data from a table join
+----------------------------------------------------------------------------------
 Exercice 9: Updating Data
+- `UPDATE 'table_name' SET 'column_name' = 'update'`
+- `UPDATE 'table_name' SET 'column_name' = 'Eric'` <br>
+`WHERE id = 0;`
+----------------------------------------------------------------------------------
+Exercice 10: Updating complex Data
+- Update table join
+----------------------------------------------------------------------------------
 Exercice 11: Replacing Data
+- `REPLACE INTO 'table_name'(all, the, column)`<br>
+`VALUES (all, the, values)`
+----------------------------------------------------------------------------------
 Exercice 12: Destroying and altering tables
-Exercice 13: Migrating and evolving Data
+- `DROP TABLE IF EXISTS 'table_name'`
+- `ALTER TABLE 'table_name' ADD COLUMN 'column_name' INTEGER or TEXT`
+----------------------------------------------------------------------------------
+Exercice 13: Migrating and evolving Data 
