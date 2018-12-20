@@ -41,6 +41,8 @@ Exercice 9: Updating Data
 - `UPDATE 'table_name' SET 'column_name' = 'update'`
 - `UPDATE 'table_name' SET 'column_name' = 'Eric'` <br>
 `WHERE id = 0;`
+- `sqlite3 -header -column`
+> Put the table with a header and a column
 ----------------------------------------------------------------------------------
 Exercice 10: Updating complex Data
 - Update table join
